@@ -1,7 +1,7 @@
 ydlidar_node:
   ros__parameters:
     port: /tmp/tty_laser # 激光雷达端口
-    frame_id: laser_frame # 坐标系ID
+    frame_id: laser_link # 坐标系ID
     ignore_array: "" # 忽略的数组
     baudrate: 115200 # 波特率
     lidar_type: 1 # 激光雷达类型
