@@ -9,7 +9,7 @@ ydlidar_node:
     sample_rate: 3 # 采样率
     intensity_bit: 8 # 强度位数
     abnormal_check_count: 4 # 异常检查计数
-    fixed_resolution: false # 固定分辨率
+    fixed_resolution: true # 固定分辨率 — slam_toolbox (Karto) requires a constant number of readings per scan; with the uncontrolled motor speed varying, false makes it reject scans and the map freezes
     reversion: true # 反转
     inverted: true # 倒置
     auto_reconnect: true # 自动重连
